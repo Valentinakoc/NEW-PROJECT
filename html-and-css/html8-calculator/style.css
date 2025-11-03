@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color: #181818;
+}
+
+input {
+  width: 100%;
+  border: none;
+  text-align: right;
+  font-size: 30px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 2px;
+  /* height: 100vh; */
+  height: calc(100vh - 40px);
+}
+
+.grid-item {
+  background-color: lightblue;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+
+.grid-item:hover {
+  background-color: #222;
+  cursor: pointer;
+}
+
+.grid-item:active {
+  background-color: #333;
+}

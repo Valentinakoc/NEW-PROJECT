@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .box {
+        width: 100px;
+        height: 150px;
+        margin: 20px;
+        background-color: beige;
+        border-radius: 40px;
+        position: relative;
+      }
+
+      .eye {
+        background-color: rgb(131, 73, 73);
+        border-radius: 100px;
+        position: absolute;
+        z-index: 9;
+        width: 30px;
+        height: 30px;
+      }
+
+      #left-eye {
+        z-index: 9;
+        top: 30px;
+        left: 10px;
+      }
+      #right-eye {
+        z-index: 9;
+        top: 30px;
+        left: 60px;
+      }
+
+      .zenica {
+        width: 20px;
+        height: 20px;
+        background-color: green;
+        border-radius: 100px;
+        position: absolute;
+        left: 5px;
+      }
+
+      .mouth {
+        position: absolute;
+        top: 120px;
+        left: 20px;
+        height: 6px;
+        width: 60px;
+        background-color: lightcoral;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="eye" id="left-eye">
+        <div class="zenica"></div>
+      </div>
+      <div class="eye" id="right-eye">
+        <div class="zenica"></div>
+      </div>
+      <div class="mouth"></div>
+    </div>
+  </body>
+</html>
