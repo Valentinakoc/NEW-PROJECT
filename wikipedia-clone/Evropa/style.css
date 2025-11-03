@@ -1,0 +1,113 @@
+/* h1 {
+  background-color: rgb(223, 217, 218);
+  border: 1px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 30px 2px darkgray;
+  padding: 16px;
+  margin: 10px;
+  font-family: cursive;
+  text-align: center;
+  color: rgb(73, 8, 8);
+} */
+/* h2 {
+  font-family: cursive, Times, serif, Geneva, Tahoma, sans-serif;
+
+  color: rgb(73, 8, 8);
+  text-align: center;
+} */
+
+.card {
+  background-color: white;
+  border: 1px solid rgba(109, 80, 80, 0.5);
+  border-radius: 16px;
+  box-shadow: 5px 5px 30px 2px darkgray;
+  padding: 16px;
+  margin: 10px;
+  font-family: cursive;
+}
+
+div {
+  background-color: white;
+  border: 1px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 30px 2px darkgray;
+  padding: 16px;
+  margin: 10px;
+  font-family: cursive;
+  color: rgb(73, 8, 8);
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 96%;
+  display: flex;
+  gap: 15px;
+  padding: 12px;
+  background-color: lightgray !important;
+  z-index: 1000;
+}
+.sticky {
+  position: sticky;
+  top: 59px;
+  background-color: rgb(223, 217, 218);
+  border: 1px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 30px 2px darkgray;
+  padding: 16px;
+  margin: 10px;
+  font-family: cursive;
+  text-align: center;
+  color: rgb(73, 8, 8);
+}
+
+.sticky-1 {
+  position: sticky;
+  top: 136px;
+  background-color: rgb(223, 217, 218);
+  border: 1px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 30px 2px darkgray;
+  padding: 16px;
+  margin: 10px;
+  font-family: cursive;
+  text-align: center;
+  color: rgb(73, 8, 8);
+  text-decoration: underline;
+}
+.sticky-2 {
+  position: sticky;
+  top: 200px;
+  background-color: rgb(223, 217, 218);
+  border: 1px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 30px 2px darkgray;
+  padding: 16px;
+  margin: 10px;
+  font-family: cursive;
+  text-align: center;
+  color: rgb(73, 8, 8);
+  text-decoration: underline;
+}
+
+body {
+  margin-top: 80px;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px;
+}
+table {
+  border-collapse: collapse;
+  /* background-color: #f8f8f8; */
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
