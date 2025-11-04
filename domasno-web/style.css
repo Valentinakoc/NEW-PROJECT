@@ -167,6 +167,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: auto;
   gap: 20px;
+  font-weight: bolder;
 }
 
 .lang-grid-item {
@@ -178,8 +179,11 @@ body {
   padding: 20px;
   background-color: #1d172e;
   border-radius: 8px;
+  font-size: large;
 }
-
+.lang-grid .lang-grid-item p {
+  font-size: medium;
+}
 .lang-grid-simple {
   display: grid;
   gap: 20px;
@@ -205,10 +209,9 @@ body {
   margin-top: 100px;
   padding: 50px 80px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 40px;
 }
-
 
 .footer-top {
   display: flex;
@@ -217,35 +220,34 @@ body {
   align-items: center;
   color: white;
   font-weight: 600;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 20px;
 }
 
-
 .footer-main {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
   gap: 20px;
   color: white;
 }
 
-.footer-main .footer-main-item {
+.footer-main-item {
+  display: grid;
   list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
-
+.footer-main .footer-main-item {
+  padding: 20px 148px;
+  margin: -10px;
+}
 
 .footer-bot {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 15px;
+  align-items: flex-start;
+  gap: 30px;
   color: white;
   text-align: left;
+  padding: 20px 148px;
 }
 
 .footer-bot .end {
@@ -270,7 +272,6 @@ body {
   background-color: white;
   color: black;
 }
-
 
 .footer-top a,
 .footer-main a {
@@ -349,4 +350,4 @@ body {
   .header {
     padding: 0 12px;
   }
-} 
+}
